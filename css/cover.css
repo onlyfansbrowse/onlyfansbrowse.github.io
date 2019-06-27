@@ -10,13 +10,21 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-secondary,
+.btn-secondary {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgba(0, 0, 0, 0);
+  border: .1rem solid #fff;
+  width: 250px;
+  margin: auto 10px;
+}
+
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: .1rem solid #fff;
 }
 
 
@@ -27,7 +35,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-image: url("../img/background_opt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 body {
