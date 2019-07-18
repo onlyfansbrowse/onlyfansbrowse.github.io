@@ -24,21 +24,8 @@
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/cover.css" rel="stylesheet">
 
     <style>
-      .cover-container {
-        max-width: 68em;
-      }
-
-      h3, .h3 {
-        font-size: 2.0rem;
-      }
-
-      p {
-        font-size: 1.3rem;
-      }
-
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -48,86 +35,39 @@
         user-select: none;
       }
 
-      @media only screen and (max-width: 1052px) {
-        .cover-heading {
-          margin-top: 0px;
-        }
-
-        .btn-secondary {
-          width: 200px;
-          /*height: 250px;*/
-        }
-      }
-
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
       }
-
-      @media (max-width: 767px) {
-        .cover-heading {
-          font-size: 2.6rem;
-        }
-
-        .btn-secondary {
-          width: 80%;
-        }
-
-      }
-
-      @media only screen and (max-width: 474px) {
-        .cover-heading {
-          font-size: 1.8rem;
-        }
-
-        .btn-secondary {
-          width: 90%;
-        }
-
-        h3, .h3 {
-          font-size: 1.6rem;
-        }
-
-        p {
-          font-size: 1.0rem;
-          margin-bottom: 0px;
-        }
-      }
-
-
-
-
     </style>
     <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-75 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
-      <h3 class="masthead-brand">OnlyFansBrowse</h3>
+      <a href="index.html"><h3 class="masthead-brand">OnlyFansBrowse</h3></a>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active" href="index.html">Home</a>
       </nav>
     </div>
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">BROWSE ONLYFANS HERE</h1>
-    <h2 class="cover-tagline lead">Search through OnlyFans profiles by category to find what you want</h2>
+    <h1 class="cover-heading">UPGRADE YOUR PROFILE!</h1>
+    <h2 class="cover-tagline lead">Attract more fans With a premium profile!</h2>
     <div class="lead">
-      <a href="#exampleModal" onclick="gtag('event', 'click', {'event_category': 'button', 'event_label': 'search'});" class="btn btn-lg btn-act btn-secondary" data-toggle="modal" data-target="#exampleModal">
-        <h3>Browse Accounts</h3>
-        <p>Find the best of what onlyfans offers!</p>
+      <a href="#exampleModal" onclick="gtag('event', 'click', {'event_category': 'button', 'event_label': 'premium'});" class="btn btn-lg btn-act btn-secondary" data-toggle="modal" data-target="#exampleModal">
+        <h3>Premium</h3>
+        <p>Reach more people for only £5/mo!</p>
       </a>
-      <a href="create.html" onclick="gtag('event', 'click', {'event_category': 'button', 'event_label': 'connect'});" class="btn btn-lg btn-act btn-secondary">
-        <h3>Connect Profile</h3>
-        <p>Make it easy for new fans to find you!</p>
+
+      <a href="#exampleModal" onclick="gtag('event', 'click', {'event_category': 'button', 'event_label': 'basic'});" class="btn btn-lg btn-act btn-secondary" data-toggle="modal" data-target="#exampleModal">
+        <h3>Basic</h3>
+        <p>Struggle to stand out in the crowd..</p>
       </a>
-      <a href="create.html" onclick="gtag('event', 'click', {'event_category': 'button', 'event_label': 'new'});" class="btn btn-lg btn-act btn-secondary">
-        <h3>Create Profile</h3>
-        <p>Make a profile people can browse here!</p>
-    </a>
     </div>
   </main>
 
